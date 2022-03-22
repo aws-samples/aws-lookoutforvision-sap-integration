@@ -17,8 +17,9 @@ This project is set up like a standard Python project.  For an integrated develo
 2.  Clone the github repository and navigate to the directory.
 
 ```
-$ git clone <CodeCommit repo-url>
-$ cd <repo>
+$ git clone https://github.com/aws-samples/aws-lookoutforvision-sap-integration.git
+
+$ cd aws-lookoutforvision-sap-integration
 ```
 
 To manually create a virtualenv 
