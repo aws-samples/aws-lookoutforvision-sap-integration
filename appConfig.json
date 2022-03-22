@@ -1,0 +1,27 @@
+{
+    "env": {
+        "account": "999999999",
+        "region": "us-east-1"
+    },
+    "vpcId": "vpc-9999999999",
+    "subnet": "subnet-099999999",
+    "stackName": "lookoutvision",
+    "sapenv": {
+        "SAP_AUTH_SECRET": "arn:aws:secretsmanager:us-east-1:9999999999:secret:saps4auth-rw0Ngw",
+        "SAP_HOST_NAME": "saponwas.aws.dev",
+        "SAP_PORT": "443",
+        "SAP_PROTOCOL": "https"
+    },
+    "ddbtablename": "configl4v",
+    "s3":{
+    "bucketname": "lookoutvision-l4v",
+    "equipment": "CAM-01",
+    "material": "CB-FL-001",
+    "plant": "1710"
+    },
+    "lookoutvision":{
+        "projectname": "SAP-Lookout-For-Vision",
+        "modelversion": "1"
+    },
+    "lambdaTimeout": 900
+}
