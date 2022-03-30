@@ -1,3 +1,9 @@
+## Integrating Amazon Lookout for Vision and SAP QM 
+Amazon Lookout for Vision provides the ability to scale computer vision-based quality inspection at a lower total cost in order to reduce inspection variation and improve quality yields. However, the output of machine learning in industrial operations only provides valuable results if action is taken on the machine learning insights. To reduce the burden of change management and ensure action is taken on the Lookout for Vision insights, this sample project has demonstrated how to automatically record the Lookout for Vision defects in SAP QM.
+
+## Architecture
+![architecture](/aws-lookoutvision-sap-integration.png)
+
 This project is intended to be sample code only. Not for use in production.
 
 This project will create the following in your AWS cloud environment specified:
